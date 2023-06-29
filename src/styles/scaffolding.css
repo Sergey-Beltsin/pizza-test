@@ -16,6 +16,10 @@ a, button {
   margin: 0 auto;
 }
 
+.main {
+  padding-bottom: 100px;
+}
+
 .button {
   padding: 22px 54px;
 
@@ -34,4 +38,16 @@ a, button {
 
 .button.button--stretch {
   width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 24px;
+
+  background-color: var(--background);
+  border: solid 1px var(--text);
+  box-sizing: border-box;
+  outline: none;
+
+  color: var(--text);
 }

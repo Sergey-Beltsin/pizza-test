@@ -1,0 +1,48 @@
+.feedback {}
+
+.feedback__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.feedback__column {}
+
+.feedback__title {
+  margin: 0 0 70px;
+
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--accent);
+}
+
+.feedback__title > span {
+  color: var(--text);
+}
+
+.feedback__descr {
+  margin: 0;
+
+  color: var(--text);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.feedback__form {
+  display: grid;
+  gap: 24px;
+
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+.feedback__img {
+  width: 100%;
+  max-width: 410px;
+}

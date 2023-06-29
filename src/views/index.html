@@ -42,7 +42,7 @@
     </div>
   </header>
 
-  <main>
+  <main class="main">
     <section class="hero">
       <div class="hero__container container">
         <div class="hero__column">
@@ -219,6 +219,42 @@
               В корзину
             </button>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback">
+      <div class="feedback__container container">
+        <div class="feedback__column">
+          <h2 class="feedback__title">
+            Хватит думать! <span>Доставим заказ за 30 минут!</span>
+          </h2>
+          <p class="feedback__descr">
+            Мы гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа.
+            Если мы опоздаем даже на 1 минуту - вы получаете весь заказ бесплатно
+            и ваучер на скидку на следующий заказ. Мы гордимся нашим сервисом и сделаем всё,
+            чтобы наш клиент был доволен и не остался голодный!
+          </p>
+        </div>
+        <div class="feedback__column">
+          <form action="https://google.com" method="POST" class="feedback__form">
+            <label>
+              <input type="text" class="feedback__form__input input" placeholder="Ваше имя" />
+            </label>
+            <label>
+              <input type="text" class="feedback__form__input input" placeholder="Адрес доставки" />
+            </label>
+            <label>
+              <input type="text" class="feedback__form__input input" placeholder="Телефон" />
+            </label>
+
+            <button class="feedback__form__submit button button--stretch">
+              Оформить заказ
+            </button>
+          </form>
+        </div>
+        <div class="feedback__column">
+          <img src="../assets/img/feedback-pizza.png" alt="" class="feedback__img" />
         </div>
       </div>
     </section>
