@@ -6,7 +6,7 @@
   box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
 }
 
-.header > .container {
+.header__container {
   display: flex;
   align-items: center;
 }

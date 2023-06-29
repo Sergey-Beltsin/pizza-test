@@ -6,8 +6,32 @@ body {
   color: var(--text);
 }
 
+a, button {
+  font-family: inherit;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.button {
+  padding: 22px 54px;
+
+  background-color: var(--accent);
+  border: none;
+  cursor: pointer;
+
+  color: var(--text-button);
+  font-weight: 700;
+  text-align: center;
+}
+
+.button.button--small {
+  padding: 18px 40px;
+}
+
+.button.button--stretch {
+  width: 100%;
 }
