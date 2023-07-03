@@ -53,3 +53,9 @@
   color: var(--text-header);
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .header__logo__text {
+    display: none;
+  }
+}

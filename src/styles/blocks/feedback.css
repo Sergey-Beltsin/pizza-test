@@ -46,3 +46,19 @@
   width: 100%;
   max-width: 410px;
 }
+
+@media (max-width: 960px) {
+  .feedback__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feedback__img {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .feedback__container {
+    grid-template-columns: 1fr;
+  }
+}

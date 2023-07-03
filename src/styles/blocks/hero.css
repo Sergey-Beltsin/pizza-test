@@ -60,7 +60,7 @@
   color: var(--accent);
   text-transform: uppercase;
   font-weight: 800;
-  line-height: 0.6;
+  line-height: 0.8;
 }
 
 .advantages__item__descr {
@@ -69,4 +69,18 @@
   line-height: 0.9;
 }
 
+@media (max-width: 768px) {
+  .hero__container {
+    display: block;
+  }
 
+  .hero__button {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .hero__advantages {
+    grid-template-columns: 1fr;
+  }
+}

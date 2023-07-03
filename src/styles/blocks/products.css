@@ -58,3 +58,21 @@
 .products__item__button {
   margin-top: auto;
 }
+
+@media (max-width: 1000px) {
+  .products__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .products__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .products__list {
+    grid-template-columns: 1fr;
+  }
+}
